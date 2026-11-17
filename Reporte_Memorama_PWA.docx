@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh wp14">
+  <w:body>
+    <w:p w14:paraId="1" w14:textId="1" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="32"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="32"/>
+        </w:rPr>
+        <w:t>Reporte de práctica</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2" w14:textId="2" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="32"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="32"/>
+        </w:rPr>
+        <w:t>Reporte de práctica</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3" w14:textId="3" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="4" w14:textId="4" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Nombre: </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>[Tu nombre aquí]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5" w14:textId="5" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Matrícula: </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>[Tu matrícula aquí]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6" w14:textId="6" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Fecha: </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>[Fecha de entrega]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7" w14:textId="7" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Licenciatura: </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>Ingeniería en Tecnologías y sistemas computacionales</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="8" w14:textId="8" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Nombre del curso: </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>Desarrollo de aplicaciones móviles y videojuegos</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="9" w14:textId="9" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Docente: </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>[Nombre del docente]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="10" w14:textId="10" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Actividad No. 4</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="11" w14:textId="11" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Nombre de la práctica: </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>Juego de Memorama (PWA)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="12" w14:textId="12" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="13" w14:textId="13" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>I. Objetivo de la práctica</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="14" w14:textId="14" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>Diseñar la interfaz de usuario (UI) y experiencia de usuario (UX) de una aplicación móvil del Juego de Memorama, aplicando los principios fundamentales del diseño centrado en el usuario, la psicología del color y la usabilidad, para crear una experiencia digital atractiva, intuitiva y efectiva para el usuario final, con apoyo de diversas herramientas de desarrollo.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="15" w14:textId="15" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="16" w14:textId="16" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>II. Justificación de la práctica</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="17" w14:textId="17" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>El estudiante se verá inmerso en el diseño de un micromundo para introducir de manera práctica e integral los procesos y principios esenciales del diseño de aplicaciones móviles, aplicando las habilidades técnicas y de pensamiento crítico altamente valoradas en el panorama digital actual. También es importante resaltar que el alumno tendrá un aprendizaje práctico, debido a los conceptos teóricos de diseño (UI/UX, teoría del color, composición) a un proyecto tangible y completo. También desarrollará competencias como: la resolución de problemas, la creatividad y el pensamiento lógico al definir el flujo de la aplicación.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="18" w14:textId="18" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="19" w14:textId="19" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>III. Material y/o equipo necesario</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="20" w14:textId="20" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Computadora o laptop</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="21" w14:textId="21" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Acceso a internet</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="22" w14:textId="22" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Procesador de Texto</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="23" w14:textId="23" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Editor de código: VS Code o Notepad++</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="24" w14:textId="24" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Navegador web: Google Chrome (para DevTools y prueba PWA)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="25" w14:textId="25" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Cuenta de GitHub (para publicación en GitHub Pages)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="26" w14:textId="26" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Servidor local: WampServer, XAMPP, o servidor HTTP simple (Node.js, Python, etc.)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="27" w14:textId="27" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="28" w14:textId="28" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>Archivos del proyecto:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="29" w14:textId="29" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• index.html — Estructura principal de la aplicación</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="30" w14:textId="30" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• style.css — Estilos, diseño responsivo y animaciones</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="31" w14:textId="31" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• app.js — Lógica del juego, manejo de estado, temporizador</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="32" w14:textId="32" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• manifest.json — Configuración PWA (nombre, iconos, display, etc.)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="33" w14:textId="33" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• service-worker.js — Service Worker para cacheo y funcionamiento offline</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="34" w14:textId="34" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• icon-192.png / icon-512.png — Iconos de la aplicación (maskable)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="35" w14:textId="35" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="36" w14:textId="36" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>IV. Desarrollo de la práctica</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="37" w14:textId="37" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Instrucciones paso a paso:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="38" w14:textId="38" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>1. Inicia un servidor local (WampServer, XAMPP, o servidor Node.js/Python) y verifica que está en funcionamiento.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="39" w14:textId="39" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>2. Crea una carpeta llamada "memorama" en el directorio público del servidor (ej. C:\wamp64\www\memorama o la carpeta del proyecto).</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="40" w14:textId="40" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>3. Dentro de la carpeta crea los siguientes archivos: index.html, style.css, app.js, manifest.json, service-worker.js, icon-192.png, icon-512.png.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="41" w14:textId="41" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>4. Abre los archivos con un editor de código (VS Code o Notepad++) y agrega el código correspondiente a cada archivo.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="42" w14:textId="42" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>5. Descarga el icono del cerebro desde: https://www.flaticon.com/free-icon/brain_3480109?term=brain&page=1&position=35&origin=search&related_id=3480109 y guárdalo como icon-192.png y icon-512.png (o genera los iconos a partir del SVG incluido).</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="43" w14:textId="43" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>6. Abre tu navegador Google Chrome y navega a la dirección del servidor local (ej. http://localhost/memorama/ o http://localhost:3000/memorama/).</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="44" w14:textId="44" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>7. Verifica que el juego cargue correctamente: se muestra el tablero 4x4 con 16 cartas, el título "Memorama", contadores de movimientos, pares y temporizador.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="45" w14:textId="45" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="46" w14:textId="46" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Solución de problemas comunes:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="47" w14:textId="47" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>Si algo no funciona, verifica lo siguiente:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="48" w14:textId="48" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Eliminar cookies: Abre Chrome → Menú (tres puntos) → Configuración → Privacidad y seguridad → Borrar datos de navegación → Marca "Cookies y otros datos de sitios" → Borrar datos.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="49" w14:textId="49" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Verificar el manifest: Presiona Ctrl+Shift+I → Pestaña "Application" → "Manifest" → Verifica que no haya errores en el icono o sintaxis.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="50" w14:textId="50" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Verificar Service Worker: En DevTools → "Application" → "Service Workers" → Verifica que esté registrado y activo.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="51" w14:textId="51" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Verificar consola: En DevTools → "Console" → Busca errores en rojo.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="52" w14:textId="52" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="53" w14:textId="53" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Publicación en GitHub Pages:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="54" w14:textId="54" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>1. Ingresa a GitHub (https://github.com/) e inicia sesión.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="55" w14:textId="55" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>2. Crea un nuevo repositorio: presiona "New", ponle nombre "memorama", habilita "Add README", y crea el repositorio.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="56" w14:textId="56" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>3. Selecciona "Add file" → "Upload files", arrastra todos los archivos de tu proyecto "memorama" y presiona "Commit changes".</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="57" w14:textId="57" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>4. Ve a "Settings" → "Pages" → En "Branch" selecciona "main" y guarda.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="58" w14:textId="58" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>5. Espera a que GitHub te proporcione la URL (ej. https://usuario.github.io/memorama/).</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="59" w14:textId="59" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>6. Abre la URL y verifica que el botón "Instalar App" aparezca (si el navegador lo soporta).</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="60" w14:textId="60" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>7. Abre la dirección web en tu teléfono y realiza la instalación de la PWA (menú del navegador → "Instalar aplicación" o "Agregar a pantalla de inicio").</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="61" w14:textId="61" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>8. Abre la aplicación instalada y verifica que funcione correctamente como app nativa.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="62" w14:textId="62" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="63" w14:textId="63" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>V. Resultados</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="64" w14:textId="64" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>[Aquí debes colocar capturas de pantalla del juego funcionando:]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="65" w14:textId="65" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Pantalla principal del juego (tablero 4x4 con cartas)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="66" w14:textId="66" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Cartas volteadas mostrando emojis (parejas encontradas)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="67" w14:textId="67" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• Modal de victoria con movimientos y tiempo final</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="68" w14:textId="68" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• DevTools → Application → Manifest (sin errores)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="69" w14:textId="69" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• DevTools → Application → Service Workers (registrado y activo)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="70" w14:textId="70" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• GitHub Pages URL funcionando</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="71" w14:textId="71" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>• PWA instalada en teléfono (captura del icono en pantalla de inicio)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="72" w14:textId="72" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="73" w14:textId="73" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>VI. Conclusiones</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="74" w14:textId="74" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>Responde las siguientes preguntas:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="75" w14:textId="75" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>1. ¿Qué características de una Aplicación Web Progresiva (PWA) identificaste durante el desarrollo de esta práctica y qué beneficios ofrecen a los usuarios?</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="76" w14:textId="76" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>[Tu respuesta aquí...]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="77" w14:textId="77" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>2. ¿Cómo contribuyen el archivo Manifest, el Service Worker y GitHub Pages al funcionamiento, instalación y distribución de una PWA?</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="78" w14:textId="78" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>[Tu respuesta aquí...]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="79" w14:textId="79" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+        </w:rPr>
+        <w:t>3. ¿Qué conocimientos o habilidades adquiriste durante el desarrollo, publicación e instalación de la aplicación Memorama, y cómo podrías aplicarlos en futuros proyectos?</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="80" w14:textId="80" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>[Tu respuesta aquí...]</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="81" w14:textId="81" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="82" w14:textId="82" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>VII. Referencias</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="83" w14:textId="83" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>Robbins, J. N. (2018). Learning Web design: A beginner's guide to HTML, CSS, JavaScript, and Web graphics (5th ed.). O'Reilly Media.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="84" w14:textId="84" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>MDN Web Docs. (2024). Progressive Web Apps (PWA). https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="85" w14:textId="85" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>Google Developers. (2024). Service Workers: Introduction. https://developers.google.com/web/fundamentals/primers/service-workers</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="86" w14:textId="86" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>GitHub Docs. (2024). GitHub Pages. https://docs.github.com/en/pages</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="87" w14:textId="87" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="88" w14:textId="88" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+          <w:b/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>VIII. Anexo</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="89" w14:textId="89" w:rsidR="0089282E" w:rsidRDefault="0089282E">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Helvetica" w:hAnsi="Helvetica"/>
+        </w:rPr>
+        <w:t>[Incluir aquí: código fuente completo, capturas de pantalla adicionales, diagramas de flujo, wireframes, etc.]</w:t>
+      </w:r>
+    </w:p>
+  </w:body>
+</w:document>

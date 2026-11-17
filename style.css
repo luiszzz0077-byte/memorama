@@ -1,0 +1,538 @@
+/* ========================================
+   MEMORAMA - Juego de Memoria PWA
+   Estilos principales
+   ======================================== */
+
+/* --- Variables CSS / Design Tokens --- */
+:root {
+    /* Colores principales - Paleta azul/verde agua */
+    --color-primary: #8BBEE7;
+    --color-primary-dark: #6AB0E0;
+    --color-primary-light: #A8CBED;
+    --color-secondary: #4ECDC4;
+    --color-secondary-dark: #3DBDB5;
+    --color-accent: #FF6B6B;
+    --color-accent-light: #FF9F9F;
+
+    /* Colores neutros */
+    --color-bg: #F5F9FC;
+    --color-surface: #FFFFFF;
+    --color-surface-hover: #EBF4FA;
+    --color-text: #2C3E50;
+    --color-text-light: #5A6F8A;
+    --color-border: #D1E2ED;
+    --color-shadow: rgba(139, 190, 231, 0.3);
+    --color-shadow-strong: rgba(139, 190, 231, 0.5);
+
+    /* Tipografía */
+    --font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 2.5rem;
+
+    /* Espaciado */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+
+    /* Bordes y sombras */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-full: 9999px;
+    --shadow-sm: 0 2px 4px var(--color-shadow);
+    --shadow-md: 0 4px 12px var(--color-shadow);
+    --shadow-lg: 0 8px 24px var(--color-shadow-strong);
+
+    /* Transiciones */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 350ms ease;
+
+    /* Z-index */
+    --z-modal: 1000;
+    --z-toast: 1100;
+}
+
+/* --- Reset y base --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    color: var(--color-text);
+    background: linear-gradient(135deg, var(--color-bg) 0%, #E8F2F8 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: var(--space-md);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Contenedor principal --- */
+.app-container {
+    width: 100%;
+    max-width: 480px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-surface);
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+}
+
+/* --- Header --- */
+.header {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+    padding: var(--space-lg) var(--space-md);
+    text-align: center;
+}
+
+.game-title {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    margin-bottom: var(--space-md);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    backdrop-filter: blur(10px);
+    min-width: 80px;
+}
+
+.stat-label {
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+}
+
+.stat-value {
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+/* --- Main --- */
+.main {
+    flex: 1;
+    padding: var(--space-lg) var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+/* --- Tablero de juego --- */
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-sm);
+    aspect-ratio: 1;
+    max-width: 100%;
+}
+
+.card {
+    aspect-ratio: 1;
+    perspective: 1000px;
+    cursor: pointer;
+    border-radius: var(--radius-md);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform var(--transition-base);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card.matched .card-inner {
+    transform: rotateY(180deg);
+    box-shadow: 0 0 0 3px var(--color-secondary);
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    user-select: none;
+}
+
+.card-back {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+    transform: rotateY(0deg);
+}
+
+.card-front {
+    background: var(--color-surface);
+    color: var(--color-text);
+    transform: rotateY(180deg);
+    border: 2px solid var(--color-border);
+}
+
+.card.matched .card-front {
+    background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-dark) 100%);
+    color: white;
+    border-color: var(--color-secondary);
+}
+
+/* --- Controles --- */
+.game-controls {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    padding: var(--space-md) var(--space-xl);
+    font-family: inherit;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    border: none;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+    box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-primary:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.btn-secondary {
+    background: var(--color-surface);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary:hover:not(:disabled) {
+    background: var(--color-surface-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/* --- Info del juego --- */
+.game-info {
+    text-align: center;
+    color: var(--color-text-light);
+    font-size: var(--font-size-sm);
+    padding: var(--space-sm);
+}
+
+/* --- Footer --- */
+.footer {
+    padding: var(--space-md);
+    text-align: center;
+    color: var(--color-text-light);
+    font-size: var(--font-size-xs);
+    background: var(--color-bg);
+    border-top: 1px solid var(--color-border);
+}
+
+/* --- Modal --- */
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: var(--z-modal);
+    padding: var(--space-md);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--transition-base), visibility var(--transition-base);
+    backdrop-filter: blur(4px);
+}
+
+.modal:not([hidden]) {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background: var(--color-surface);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+    max-width: 320px;
+    width: 100%;
+    box-shadow: var(--shadow-lg);
+    transform: scale(0.9);
+    transition: transform var(--transition-base);
+}
+
+.modal:not([hidden]) .modal-content {
+    transform: scale(1);
+}
+
+.modal-content h2 {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-md);
+    color: var(--color-primary);
+}
+
+.modal-content p {
+    margin-bottom: var(--space-lg);
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+
+.modal-content strong {
+    color: var(--color-text);
+}
+
+/* --- Animaciones --- */
+@keyframes flipIn {
+    from {
+        opacity: 0;
+        transform: rotateY(90deg) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: rotateY(0) scale(1);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+.card {
+    animation: flipIn var(--transition-base) ease-out backwards;
+}
+
+.card:nth-child(1) { animation-delay: 0ms; }
+.card:nth-child(2) { animation-delay: 50ms; }
+.card:nth-child(3) { animation-delay: 100ms; }
+.card:nth-child(4) { animation-delay: 150ms; }
+.card:nth-child(5) { animation-delay: 200ms; }
+.card:nth-child(6) { animation-delay: 250ms; }
+.card:nth-child(7) { animation-delay: 300ms; }
+.card:nth-child(8) { animation-delay: 350ms; }
+.card:nth-child(9) { animation-delay: 400ms; }
+.card:nth-child(10) { animation-delay: 450ms; }
+.card:nth-child(11) { animation-delay: 500ms; }
+.card:nth-child(12) { animation-delay: 550ms; }
+.card:nth-child(13) { animation-delay: 600ms; }
+.card:nth-child(14) { animation-delay: 650ms; }
+.card:nth-child(15) { animation-delay: 700ms; }
+.card:nth-child(16) { animation-delay: 750ms; }
+
+.card.shake {
+    animation: shake 400ms ease-in-out;
+}
+
+.card.matched .card-front {
+    animation: pulse 600ms ease-in-out 2;
+}
+
+/* --- Responsive --- */
+@media (max-width: 480px) {
+    .app-container {
+        border-radius: 0;
+        min-height: 100vh;
+        max-width: 100%;
+    }
+
+    :root {
+        --font-size-2xl: 1.75rem;
+        --space-lg: 1rem;
+        --space-xl: 1.5rem;
+    }
+
+    .stats {
+        gap: var(--space-md);
+    }
+
+    .stat {
+        min-width: 70px;
+        padding: var(--space-xs) var(--space-sm);
+    }
+
+    .game-board {
+        gap: 8px;
+    }
+
+    .card-face {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: var(--space-sm) var(--space-lg);
+        font-size: var(--font-size-sm);
+    }
+}
+
+@media (min-width: 768px) {
+    .app-container {
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-lg);
+        margin: var(--space-lg) auto;
+    }
+
+    body {
+        padding: var(--space-xl);
+        align-items: flex-start;
+    }
+}
+
+/* --- Modo oscuro (opcional, respeta preferencia del sistema) --- */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-bg: #1A2A3A;
+        --color-surface: #223444;
+        --color-surface-hover: #2A3F52;
+        --color-text: #E8F0F8;
+        --color-text-light: #9AB0C8;
+        --color-border: #3A5066;
+        --color-shadow: rgba(0, 0, 0, 0.3);
+        --color-shadow-strong: rgba(0, 0, 0, 0.5);
+    }
+
+    body {
+        background: linear-gradient(135deg, var(--color-bg) 0%, #142030 100%);
+    }
+
+    .card-front {
+        background: var(--color-surface);
+        border-color: var(--color-border);
+    }
+}
+
+/* --- Accesibilidad --- */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.card:focus-visible .card-inner {
+    box-shadow: 0 0 0 3px var(--color-primary);
+}
+
+/* --- Estados de carga --- */
+.loading .game-board {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.loading .game-board::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--color-border);
+    border-top-color: var(--color-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* --- PWA específicos --- */
+@media (display-mode: standalone) {
+    .header {
+        padding-top: calc(var(--space-lg) + env(safe-area-inset-top));
+    }
+
+    .footer {
+        padding-bottom: calc(var(--space-md) + env(safe-area-inset-bottom));
+    }
+
+    .installBtn {
+        display: none !important;
+    }
+}

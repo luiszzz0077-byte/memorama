@@ -1,0 +1,52 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo redondeado -->
+  <rect x="12" y="12" width="168" height="168" rx="28" ry="28" fill="#8BBEE7"/>
+
+  <!-- Cerebro estilizado -->
+  <g transform="translate(96, 96)">
+    <!-- Hemisferio izquierdo -->
+    <path d="M-50,0
+             C-50,-30 -20,-50 10,-50
+             C30,-50 50,-30 50,0
+             C50,30 30,50 10,50
+             C-10,50 -50,30 -50,0
+             Z" fill="#6AB0E0"/>
+
+    <!-- Hemisferio derecho -->
+    <path d="M50,0
+             C50,-30 20,-50 -10,-50
+             C-30,-50 -50,-30 -50,0
+             C-50,30 -30,50 10,50
+             C30,50 50,30 50,0
+             Z" fill="#6AB0E0"/>
+
+    <!-- Surcos del cerebro -->
+    <g stroke="#5A9FD4" stroke-width="2" fill="none" stroke-linecap="round">
+      <!-- Surcos lado izquierdo -->
+      <path d="M-40,-20 Q-30,-10 -20,-5"/>
+      <path d="M-40,0 Q-30,10 -20,15"/>
+      <path d="M-40,20 Q-30,30 -20,35"/>
+
+      <!-- Surcos lado derecho -->
+      <path d="M40,-20 Q30,-10 20,-5"/>
+      <path d="M40,0 Q30,10 20,15"/>
+      <path d="M40,20 Q30,30 20,35"/>
+
+      <!-- Línea central -->
+      <path d="M0,-45 Q0,0 0,45" stroke="#5A9FD4" stroke-width="3"/>
+    </g>
+
+    <!-- Puntos de conexión neuronal (estilo memoria) -->
+    <g fill="#FFFFFF" opacity="0.9">
+      <circle cx="-35" cy="-25" r="3"/>
+      <circle cx="-25" cy="5" r="2.5"/>
+      <circle cx="-38" cy="20" r="2"/>
+      <circle cx="35" cy="-25" r="3"/>
+      <circle cx="25" cy="5" r="2.5"/>
+      <circle cx="38" cy="20" r="2"/>
+    </g>
+  </g>
+
+  <!-- Brillo superior -->
+  <ellipse cx="96" cy="50" rx="50" ry="15" fill="white" opacity="0.15"/>
+</svg>

@@ -1,0 +1,36 @@
+import * as React from "react";
+const SvgIcon192 = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" {...props}>
+    <rect
+      width={168}
+      height={168}
+      x={12}
+      y={12}
+      fill="#8BBEE7"
+      rx={28}
+      ry={28}
+    />
+    <path
+      fill="#6AB0E0"
+      d="M46 96c0-30 30-50 60-50 20 0 40 20 40 50s-20 50-40 50-60-20-60-50"
+    />
+    <path
+      fill="#6AB0E0"
+      d="M146 96c0-30-30-50-60-50-20 0-40 20-40 50s20 50 60 50c20 0 40-20 40-50"
+    />
+    <g fill="none" stroke="#5A9FD4" strokeLinecap="round" strokeWidth={2}>
+      <path d="M56 76q10 10 20 15M56 96q10 10 20 15M56 116q10 10 20 15M136 76q-10 10-20 15M136 96q-10 10-20 15M136 116q-10 10-20 15" />
+      <path strokeWidth={3} d="M96 51v90" />
+    </g>
+    <g fill="#FFF" opacity={0.9} transform="translate(96 96)">
+      <circle cx={-35} cy={-25} r={3} />
+      <circle cx={-25} cy={5} r={2.5} />
+      <circle cx={-38} cy={20} r={2} />
+      <circle cx={35} cy={-25} r={3} />
+      <circle cx={25} cy={5} r={2.5} />
+      <circle cx={38} cy={20} r={2} />
+    </g>
+    <ellipse cx={96} cy={50} fill="#fff" opacity={0.15} rx={50} ry={15} />
+  </svg>
+);
+export default SvgIcon192;

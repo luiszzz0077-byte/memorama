@@ -1,0 +1,40 @@
+{
+  "name": "Memorama - Juego de Memoria",
+  "short_name": "Memorama",
+  "description": "Un divertido juego de memoria tipo Memorama desarrollado como Progressive Web App (PWA). Ejercita tu memoria encontrando todas las parejas.",
+  "start_url": "/memorama/",
+  "scope": "/memorama/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F5F9FC",
+  "theme_color": "#8BBEE7",
+  "lang": "es",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Nuevo Juego",
+      "short_name": "Jugar",
+      "description": "Iniciar una nueva partida de Memorama",
+      "url": "/memorama/",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
